@@ -2,7 +2,7 @@ import webpack  from "webpack";
 
 import { buildLoaders } from "./buildLoaders";
 import { buildPlugins } from "./buildPlugins";
-import { buildResolves } from "./buildResolves";
+import { buildResolvers } from "./buildResolvers";
 import { BuildOptions } from "./types/config";
 import { buildDevServer } from "./buildDevServer";
 
@@ -21,7 +21,7 @@ return {
       module: {
         rules: buildLoaders(options),
       },
-      resolve: buildResolves(),
+      resolve: buildResolvers(options),
       devtool: isDev ? 'inline-source-map' : undefined,
       devServer: isDev ? buildDevServer(options): undefined
   }
