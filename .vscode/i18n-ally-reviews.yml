@@ -13,3 +13,25 @@ reviews:
             suggestion: ''
             type: approve
             time: '2023-07-04T12:45:11.545Z'
+  about.new:
+    locales:
+      en:
+        comments:
+          - user:
+              name: Natasha
+              email: just.too.it@gmail.com
+            id: rIrw2WAkqa7LqLJ2GbK8T
+            comment: ''
+            suggestion: ''
+            type: approve
+            time: '2023-07-05T18:12:01.857Z'
+      ru:
+        comments:
+          - user:
+              name: Natasha
+              email: just.too.it@gmail.com
+            id: iTCIkDHkYwdUxXr0O6OaS
+            comment: ''
+            suggestion: ''
+            type: approve
+            time: '2023-07-05T18:12:02.954Z'
