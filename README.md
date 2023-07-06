@@ -18,6 +18,8 @@
 * Redux Toolkit
 * SCSS / CSS Modules
 * i18n
+* Babel
+* Eslint
 
 ## Установка и запуск  
 ### Установка
