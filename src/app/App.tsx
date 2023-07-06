@@ -7,17 +7,17 @@ import { AppRouter } from './providers/router';
 import { useTheme } from './providers/themeProvider';
 
 export const App = () => {
-    const { theme } = useTheme();
+  const { theme } = useTheme();
 
-    return (
-        <div className={classNames('app', {}, [theme])}>
-            <Suspense fallback="">
-                <Navbar />
-                <div className="content-page">
-                    <Sidebar />
-                    <AppRouter />
-                </div>
-            </Suspense>
+  return (
+    <div className={classNames('app', {}, [theme])}>
+      <Suspense fallback="">
+        <Navbar />
+        <div className="content-page">
+          <Sidebar />
+          <AppRouter />
         </div>
-    );
+      </Suspense>
+    </div>
+  );
 };

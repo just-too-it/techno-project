@@ -10,21 +10,21 @@ interface SidebarProps {
 }
 
 export const Sidebar: FC<SidebarProps> = ({ className }) => {
-    const [collapsed, setCollapsed] = useState(false);
+  const [collapsed, setCollapsed] = useState(false);
 
-    const onToggle = () => {
-        setCollapsed(prev => !prev)
-    }
+  const onToggle = () => {
+    setCollapsed(prev => !prev)
+  }
 
-    return (
-        <div className={classNames(styles.Sidebar, {[styles.collapsed]: collapsed}, [className])}>
-            <Button onClick={onToggle}>toggle</Button>
-            <div className={styles.switchers}>
-                <ThemeSwitcher />
-                <LangSwitcher className={styles.lang}/>
-            </div>
+  return (
+    <div className={classNames(styles.Sidebar, {[styles.collapsed]: collapsed}, [className])}>
+      <Button onClick={onToggle}>toggle</Button>
+      <div className={styles.switchers}>
+        <ThemeSwitcher />
+        <LangSwitcher className={styles.lang}/>
+      </div>
       
-        </div>
+    </div>
     
-    )
+  )
 }

@@ -9,17 +9,17 @@ interface LangSwitcherProps {
 }
 
 export const LangSwitcher: FC<LangSwitcherProps> = ({ className }) => {
-    const { t, i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
 
-    const SwitchLanguages = () =>{
-        i18n.changeLanguage(i18n.language === 'ru' ? 'en' : 'ru');
-    }
+  const SwitchLanguages = () =>{
+    i18n.changeLanguage(i18n.language === 'ru' ? 'en' : 'ru');
+  }
 
-    return (
-        <Button 
-            onClick={SwitchLanguages} 
-            className={classNames(styles.LangSwitcher, {}, [className])}
-            variant={ButtonVariant.CLEAR}
-        >{t('Язык')}</Button>
-    )
+  return (
+    <Button 
+      onClick={SwitchLanguages} 
+      className={classNames(styles.LangSwitcher, {}, [className])}
+      variant={ButtonVariant.CLEAR}
+    >{t('Язык')}</Button>
+  )
 }
