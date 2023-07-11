@@ -21,6 +21,7 @@
 * Babel
 * Eslint
 * Jest
+* ErrorBoundary 
 
 ## Установка и запуск  
 ### Установка

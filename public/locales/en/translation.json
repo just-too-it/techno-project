@@ -1,8 +1,12 @@
 {
+  "Баг": "Bug",
   "Главная": "Main Page",
   "Загрузка": "Loading ...",
   "О компании": "About us",
+  "Ошибка": "throw error",
+  "Перезагрузить": "Reload",
   "Переключение": "Toggle",
+  "Сообщение об ошибке": "Message about error",
   "Страница не найдена": "Page not found",
   "Язык": "Russian"
 }
