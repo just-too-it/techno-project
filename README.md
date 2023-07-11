@@ -22,6 +22,7 @@
 * Eslint
 * Jest
 * ErrorBoundary 
+* BundleAnalyzer
 
 ## Установка и запуск  
 ### Установка
