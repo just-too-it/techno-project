@@ -42,7 +42,7 @@ module.exports = {
     "no-promise-executor-return": "warn",
     "i18next/no-literal-string": [
       "error",
-      { markupOnly: true, ignoreAttribute: ["to"] },
+      { markupOnly: true, ignoreAttribute: ["to", "data-testid"] },
     ],
     "max-len": ["error", { ignoreComments: true, code: 100 }],
     "react/jsx-uses-react": "off",
@@ -50,4 +50,12 @@ module.exports = {
   globals: {
     __IS_DEV__: true,
   },
+  ovveriders: [
+    {
+      files: ["**/src/**/*.test.{ts,tsx}"],
+      rules: {
+        "i18next/no-literal-string": "off",
+      },
+    },
+  ],
 };
