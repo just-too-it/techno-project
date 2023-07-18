@@ -26,6 +26,7 @@
 * React Testing Library
 * Storybook
 * Loki
+* CI/CD (continuous integration / ..)
 
 ## Установка и запуск  
 ### Установка
