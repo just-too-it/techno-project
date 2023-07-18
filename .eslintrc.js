@@ -44,13 +44,20 @@ module.exports = {
       "error",
       { markupOnly: true, ignoreAttribute: ["to", "data-testid"] },
     ],
-    "max-len": ["error", { ignoreComments: true, code: 100 }],
+    "max-len": [
+      "error", 
+      { 
+        ignoreComments: true, 
+        code: 100, 
+        ignorePattern: "^import\\s.+\\sfrom\\s.+;$",
+        ignoreUrls: true 
+      }],
     "react/jsx-uses-react": "off",
   },
   globals: {
     __IS_DEV__: true,
   },
-  ovveriders: [
+  overrides: [
     {
       files: ["**/src/**/*.test.{ts,tsx}"],
       rules: {

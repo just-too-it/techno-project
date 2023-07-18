@@ -23,6 +23,8 @@
 * Jest
 * ErrorBoundary 
 * BundleAnalyzer
+* React Testing Library
+* Storybook
 
 ## Установка и запуск  
 ### Установка
