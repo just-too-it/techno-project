@@ -25,6 +25,7 @@
 * BundleAnalyzer
 * React Testing Library
 * Storybook
+* Loki
 
 ## Установка и запуск  
 ### Установка
