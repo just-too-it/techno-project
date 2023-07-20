@@ -27,6 +27,7 @@
 * Storybook
 * Loki
 * CI/CD (continuous integration / ..)
+* HTML report for Loki
 
 ## Установка и запуск  
 ### Установка
