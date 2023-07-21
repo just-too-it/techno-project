@@ -18,7 +18,13 @@ module.exports = {
     ecmaVersion: "latest",
     sourceType: "module",
   },
-  plugins: ["react", "@typescript-eslint", "prettier", "i18next", "react-hooks"],
+  plugins: [
+    "react",
+    "@typescript-eslint",
+    "prettier",
+    "i18next",
+    "react-hooks",
+  ],
   rules: {
     "react/jsx-indent": [2, 2],
     "react/jsx-indent-props": [2, 2],
@@ -45,28 +51,29 @@ module.exports = {
       { markupOnly: true, ignoreAttribute: ["to", "data-testid"] },
     ],
     "max-len": [
-      "error", 
-      { 
-        ignoreComments: true, 
-        code: 100, 
+      "error",
+      {
+        ignoreComments: true,
+        code: 100,
         ignorePattern: "^import\\s.+\\sfrom\\s.+;$",
-        ignoreUrls: true 
-      }],
+        ignoreUrls: true,
+      },
+    ],
     "react/jsx-uses-react": "off",
     "jsx-a11y/no-static-element-interactions": "off",
     "jsx-a11y/click-events-have-key-events": "off",
     "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "error"
+    "react-hooks/exhaustive-deps": "error",
   },
   globals: {
     __IS_DEV__: true,
   },
   overrides: [
     {
-      files: ["**/src/**/*.test,stories.{ts,tsx}"],
+      files: ["**/src/**/*.test.{ts,tsx}", "**/src/**/*.stories.{ts,tsx}"],
       rules: {
         "i18next/no-literal-string": "off",
-        "max-len": "off"
+        "max-len": "off",
       },
     },
   ],
