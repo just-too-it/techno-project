@@ -5,6 +5,8 @@
       "": ""
     }
   },
+  "decrement": "decrement",
+  "increment": "increment",
   "Баг": "Bug",
   "Войти": "Login",
   "Главная": "Main Page",
@@ -16,5 +18,7 @@
   "Сообщение об ошибке": "Message about error",
   "Страница не найдена": "Page not found",
   "Язык": "Russian",
-  "Язык сокр": "Ru"
+  "Язык сокр": "Ru",
+  "декремент": "decrement",
+  "инкремент": "increment"
 }

@@ -28,6 +28,7 @@
 * Loki
 * CI/CD (continuous integration / ..)
 * HTML report for Loki
+* Redux Toolkit
 
 ## Установка и запуск  
 ### Установка
