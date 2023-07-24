@@ -29,6 +29,7 @@
 * CI/CD (continuous integration / ..)
 * HTML report for Loki
 * Redux Toolkit
+* JSON-server
 
 ## Установка и запуск  
 ### Установка
