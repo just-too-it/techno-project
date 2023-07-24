@@ -25,7 +25,6 @@ export const Modal: FC<ModalProps> = (props) => {
 
   const [isClosing, setIsClosing] = useState(false);
   const timerRef = useRef<ReturnType<typeof setTimeout>>();
-  const { theme } = useTheme();
 
   const closeHandler = useCallback(() => {
     if (onClose) {
@@ -53,7 +52,6 @@ export const Modal: FC<ModalProps> = (props) => {
   const mods: Record<string, boolean> = {
     [styles.opened]: isOpen,
     [styles.isClosing]: isClosing,
-    [styles[theme]]: true,
   };
 
   useEffect(() => {
