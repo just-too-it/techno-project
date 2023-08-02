@@ -20,12 +20,14 @@
 }
 
 .content {
-    width: 60%;
     border-radius: 12px;
     padding: 20px;
     background-color: var(--bg-color);
     transition: 0.3s transform;
     transform: scale(0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .opened {
