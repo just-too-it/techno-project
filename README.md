@@ -30,6 +30,7 @@
 * HTML report for Loki
 * Redux Toolkit
 * JSON-server
+* Husky
 
 ## Установка и запуск  
 ### Установка
